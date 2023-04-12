@@ -11,13 +11,13 @@ import { AiOutlinePlaySquare } from 'react-icons/ai';
 import { BiTimeFive } from 'react-icons/bi';
 import { SlLike } from 'react-icons/sl';
 import { GrWifi } from 'react-icons/gr';
-// import { BsFiletypeHtml } from 'react-icons/bs';
+
 import { SiJavascript } from 'react-icons/si';
-// import { IoBarChart } from 'react-icons/io';
+
 import { FcBarChart } from 'react-icons/fc';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-// import 'swiper/css';
+
 import 'swiper/swiper-bundle.css';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Link } from 'react-router-dom';
