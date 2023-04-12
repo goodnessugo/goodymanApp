@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.category::-webkit-scrollbar{
+    width: 0;
+}
+
+/* ::-webkit-scrollbar-track {
+    background: hsl(120 75% 50% / 1);
+    width: .5em;
+}
+
+::-webkit-scrollbar-thumb {
+    background: hsl(120 75% 10% / 1);
+    border-radius: 100vw;
+    height  
+} 
+
+::-webkit-scrollbar-thumb:hover{
+    background: hsl(120 75% 40% / 1);
+} */
+
+
+
+.menu::-webkit-scrollbar{
+    width: .5em;
+}
+
+ .menu::-webkit-scrollbar-track {
+    background: white;
+    width: .5em;
+}
+
+.menu::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 100vw;
+    width: 0.5em;
+    height: 5px;
+}  
+
+.menu::-webkit-scrollbar-thumb:hover{
+    background: rgb(92, 92, 92);
+    border-radius: 100vw;
+}  
+
+/* logoImage styling */
+.logoImage {
+    background-image: url('./images/goodymanLogo.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Create styling */
+.createBackground {
+    background-image: url('./images/bgImage1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+/* login styling */
+.loginBackground {
+    background-image: url('./images/bgImage3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+/* styling the Handles */
+.htmlBackground{
+    background-image: url('./images/html.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cssBackground{
+    background-image: url('./images/css2.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.javascriptBackground{
+    background-image: url('./images/javascript.jpg');
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* styling the tutor Image */
+.tutorImage{
+    background-image: url('./images/goodymanLogo.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+/* styling the profile Section */
+.profileImage{
+    background-image: url('./images/profileImage.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+/* styling profile Background */
+.profileBackground{
+    background-image: url('./images/profileBackgroundImage.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
