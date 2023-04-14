@@ -7,8 +7,8 @@ import Layout from '../../components/Layout'
 const UserProfile = () => {
   return (
     <Layout>
-      <div className='relative '>
-        <div className=' absolute z-30  h-screen w-full  flex flex-col items-center  bg-green-200 py-5 overflow-x-hidden'>
+      <div className='h-full w-full overflow-x-hidden '>
+        <div className='    flex flex-col items-center  bg-green-200 py-5 mb-20 '>
 
           {/* profile Image and Change photo icon */}
           <div className='flex justify-center items-end'>
@@ -30,7 +30,7 @@ const UserProfile = () => {
 
 
           {/* the filling section */}
-          <div className=' w-2/6 h-fit p-5 mt-5 bg-white opacity-75 drop-shadow-md rounded-lg'>
+          <div className='formHolder w-2/6 h-fit p-5 mt-5 bg-white  drop-shadow-md rounded-lg'>
             <h1 className=' font-bold'> Edit Profile</h1>
             <form action="/">
               <input type="text" placeholder='Username' className='w-full h-12 mt-3 drop-shadow-lg focus:outline-none text-2xl mb-3 pl-3 rounded ' />

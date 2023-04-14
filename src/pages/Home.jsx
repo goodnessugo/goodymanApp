@@ -1,25 +1,7 @@
 import React from 'react';
-import { BsFiletypeHtml, BsFillCheckCircleFill, BsFiletypeCss } from 'react-icons/bs';
-import { BsSearch, BsMicFill } from 'react-icons/bs';
-import { IoIosNotificationsOutline } from 'react-icons/io';
-import { TbVideoPlus } from 'react-icons/tb';
-import { FaBars, FaHome, FaReact, FaEllipsisV } from 'react-icons/fa';
-import { BsYoutube } from 'react-icons/bs';
-import { FiPaperclip } from 'react-icons/fi';
-import { MdSubscriptions, MdSlowMotionVideo, MdVideoLibrary, MdManageHistory, MdKeyboardArrowUp } from 'react-icons/md';
-import { AiOutlinePlaySquare } from 'react-icons/ai';
-import { BiTimeFive } from 'react-icons/bi';
-import { SlLike } from 'react-icons/sl';
-import { GrWifi } from 'react-icons/gr';
-
-import { SiJavascript } from 'react-icons/si';
-
-import { FcBarChart } from 'react-icons/fc';
-
-import { Swiper, SwiperSlide } from 'swiper/react';
-
+import {  BsFillCheckCircleFill } from 'react-icons/bs';
+import { FaEllipsisV } from 'react-icons/fa';
 import 'swiper/swiper-bundle.css';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Link } from 'react-router-dom';
 import Layout from '../components/Layout';
 
@@ -32,12 +14,12 @@ const Home = () => {
   return (
     <Layout>
       {/* the home menu */}
-      <div className='w-full h-full  overflow-x-hidden'>
+      <div className='homeMenu w-full h-full pb-20 overflow-x-hidden '>
 
 
         {/* first row */}
 
-        <div className='flex justify-evenly pt-8 px-1 column-3'>
+        <div className='homeMenu1 flex justify-evenly pt-8 px-1 column-3'>
 
           {/* html Section */}
           <Link to=''>
@@ -175,7 +157,7 @@ const Home = () => {
 
         {/* second row */}
 
-        <div className='flex justify-evenly pt-20 px-1 column-3'>
+        <div className='homeMenu1 flex justify-evenly pt-20 px-1 column-3'>
 
 
           <div className=' h-auto w-auto'>
@@ -302,7 +284,7 @@ const Home = () => {
 
         {/* third row */}
 
-        <div className='flex justify-evenly pt-20 px-1 column-3'>
+        <div className='homeMenu1 flex justify-evenly pt-20 px-1 column-3'>
 
 
           <div className=' h-auto w-auto'>

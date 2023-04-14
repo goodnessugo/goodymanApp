@@ -11,54 +11,33 @@ import { FcBarChart } from 'react-icons/fc';
 
 const LeftSection = () => {
   return (
-    <div className='LeftSide menuSection h-screen w-2/12 bg-white'>
-        <div className='w-full h-1/6 bg-white'>
-          <div className='w-full flex justify-between px-5 pt-5'>
-            <div className=' flex justify-between items-center'>
-              {/* 3 bar logo */}
-              <FaBars />
-            </div>
-
-            <div className='flex justify-between items-center'>
-              {/* youtube logo */}
-              <div className='logoImage h-10 w-10 '>
-
-              </div>
-              {/* < BsYoutube color='green' size='2rem' /> */}
-              <h1 className='font-bold text-2xl '>GoodyMan</h1>
-            </div>
-
-
-
-
-          </div>
-
-        </div>
+    <div className='    '>
+        
 
         {/* the menu listing */}
 
-        <div className='menu w-full h-5/6 bg-white overflow-x-hidden'>
+        <div className='menu w-44 h-screen pt-5 overflow-x-hidden '>
 
 
-          <div className='flex justify-start items-center   rounded-md py-1 px-5 mx-3 hover:bg-gray-300 ease-in-out '>
+          <div className='flex justify-start items-center   rounded-md py-1 px-5  hover:bg-gray-300 ease-in-out '>
             <FaHome size='1.5rem' />
             <h1 className='ml-5 hover:font-bold '>Home</h1>
           </div>
 
 
-          <div className='flex justify-start items-center   rounded-md py-1 px-5 mx-3 hover:bg-gray-300 ease-in-out '>
+          <div className='flex justify-start items-center   rounded-md py-1 px-5 hover:bg-gray-300 ease-in-out '>
             <BsFiletypeHtml size='1.2rem' />
             <h1 className='ml-5 hover:font-bold '>HTML</h1>
           </div>
 
 
-          <div className='flex justify-start items-center   rounded-md py-1 px-5 mx-3 hover:bg-gray-300 ease-in-out '>
+          <div className='flex justify-start items-center   rounded-md py-1 px-5  hover:bg-gray-300 ease-in-out '>
             <BsFiletypeCss size='1.2rem' />
             <h1 className='ml-5 hover:font-bold '>CSS</h1>
           </div>
 
 
-          <div className='flex justify-start items-center   rounded-md py-1 px-5 mx-3 hover:bg-gray-300 ease-in-out '>
+          <div className='flex justify-start items-center   rounded-md py-1 px-5  hover:bg-gray-300 ease-in-out '>
             <SiJavascript size='1rem' />
             <h1 className='ml-5  '>JavaScript</h1>
           </div>
@@ -66,58 +45,58 @@ const LeftSection = () => {
           <hr className='my-5' />
 
 
-          <div className='flex justify-start items-center   rounded-md py-1 px-5 mx-3 hover:bg-gray-300 ease-in-out '>
+          <div className='flex justify-start items-center   rounded-md py-1 px-5  hover:bg-gray-300 ease-in-out '>
             <FaReact size='1.5rem' />
             <h1 className='ml-5 hover:font-bold '>React</h1>
           </div>
 
 
 
-          <div className='flex justify-start items-center   rounded-md py-1 px-5 mx-3 hover:bg-gray-300 ease-in-out '>
+          <div className='flex justify-start items-center   rounded-md py-1 px-5  hover:bg-gray-300 ease-in-out '>
             <MdManageHistory size='1.5rem' />
             <h1 className='ml-5 hover:font-bold '>History</h1>
           </div>
 
 
 
-          <div className='flex justify-start items-center   rounded-md py-1 px-5 mx-3 hover:bg-gray-300 ease-in-out '>
+          <div className='flex justify-start items-center   rounded-md py-1 px-5  hover:bg-gray-300 ease-in-out '>
             <FcBarChart color='black' size='1.5rem' />
-            <h1 className='ml-5 hover:font-bold '>Your Grades</h1>
+            <h1 className='ml-5 '>Your Grades</h1>
           </div>
 
 
 
-          <div className='flex justify-start items-center   rounded-md py-1 px-5 mx-3 hover:bg-gray-300 ease-in-out '>
+          <div className='flex justify-start items-center   rounded-md py-1 px-5  hover:bg-gray-300 ease-in-out '>
             <BiTimeFive size='1.5rem' />
-            <h1 className='ml-5 hover:font-bold '>Watch later</h1>
+            <h1 className='ml-5  '>Watch later</h1>
           </div>
 
 
 
-          <div className='flex justify-start items-center   rounded-md py-1 px-5 mx-3 hover:bg-gray-300 ease-in-out '>
+          <div className='flex justify-start items-center   rounded-md py-1 px-5  hover:bg-gray-300 ease-in-out '>
             <SlLike size='1.5rem' />
-            <h1 className='ml-5 hover:font-bold '>Liked videos</h1>
+            <h1 className='ml-5  '>Liked videos</h1>
           </div>
 
 
 
-          <div className='flex justify-start items-center   rounded-md py-1 px-5 mx-3 hover:bg-gray-300 ease-in-out '>
+          <div className='flex justify-start items-center   rounded-md py-1 px-5 hover:bg-gray-300 ease-in-out '>
             <BsYoutube size='1.5rem' />
-            <h1 className='ml-5 hover:font-bold '>G</h1>
+            <h1 className='ml-5  '>G</h1>
           </div>
 
 
 
-          <div className='flex justify-start items-center   rounded-md py-1 px-5 mx-3 hover:bg-gray-300 ease-in-out '>
+          <div className='flex justify-start items-center   rounded-md py-1 px-5 hover:bg-gray-300 ease-in-out '>
             <BsYoutube size='1.5rem' />
-            <h1 className='ml-5 hover:font-bold '>Mix - Barry</h1>
+            <h1 className='ml-5 '>Mix - Barry</h1>
           </div>
 
 
 
-          <div className='flex justify-start items-center   rounded-md py-1 px-5 mx-3  hover:bg-gray-300 ease-in-out '>
+          <div className='flex justify-start items-center   rounded-md py-1 px-5  hover:bg-gray-300 ease-in-out '>
             <MdKeyboardArrowUp size='1.5rem' />
-            <h1 className='ml-5 hover:font-bold '>Show less</h1>
+            <h1 className='ml-5  '>Show less</h1>
           </div>
 
           <hr className='my-5' />

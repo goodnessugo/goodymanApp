@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    /* overflow: hidden; */
+}
+body{
+    overflow: hidden;
+}
 .category::-webkit-scrollbar{
     width: 0;
 }
@@ -24,19 +30,19 @@
 
 
 .menu::-webkit-scrollbar{
-    width: .5em;
+    width: .5rem;
 }
 
  .menu::-webkit-scrollbar-track {
     background: white;
-    width: .5em;
+    width: .5rem;
 }
 
 .menu::-webkit-scrollbar-thumb {
     background: gray;
     border-radius: 100vw;
-    width: 0.5em;
-    height: 5px;
+    width: .5rem;
+    height: .5rem;
 }  
 
 .menu::-webkit-scrollbar-thumb:hover{
@@ -115,4 +121,74 @@
     background-size: cover;
     background-repeat: no-repeat;
 
+}
+
+.barIcon{
+    display: none;
+}
+
+
+
+
+
+
+
+/* ------------------media query for smaller screens------------------ */
+@media screen and (max-width: 768px){
+    /* .LeftSide{
+        width: 0rem;
+    } */
+    .menu{
+        /* width: 0rem; */
+        display: none;
+    }
+
+    .searchBox{
+        /* width: 0rem; */
+        display: none;
+    }
+
+    .profileSection{
+        padding-left: none;
+        padding-right: 3rem;
+    }
+
+    .NavSection{
+        display: flex;
+        justify-content: center;
+        overflow-x: hidden;
+        padding: 0px;
+        height: 5rem;
+    }
+ 
+    .barIcon{
+        display: block;
+    }
+
+    .search {
+        background-color: transparent;
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        
+    }
+    .search {
+        background-color: transparent;
+        border: none;
+        
+    }
+
+    .homeMenu1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .formHolder{
+        width: 75%;
+        margin: 2rem;
+    }
 }

@@ -4,26 +4,19 @@ import Navbar from './Navbar'
 
 const Layout = ({ children }) => {
     return (
-        <div className='h-max flex overflow-hidden  '>
+        <div className=' '>
 
-            {/* ----------------The Left Section--------------------- */}
-            <LeftSection />
-
-
-
+        <Navbar />
+            
+            
             {/*------------------ the Right Side ---------------------*/}
-            <div className='RightSide  h-screen w-10/12  '>
-
-
-
-
-                {/* top search section */}
-                <Navbar />
-
+            <div className='RightSide flex  h-screen w-full  '>
+  
+                <LeftSection />
                 {/* -------------------the third Section ---------------------this is the begining of the movie part */}
                 {children}
             </div>
-
+            
 
         </div>
     )
