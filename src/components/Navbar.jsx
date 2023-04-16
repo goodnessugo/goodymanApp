@@ -7,6 +7,9 @@ import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
+
+  
+
   return (
     <div className='NavSection w-full h-24 flex items-center justify-between p-4 bg-gray-100  overflow-y-hidden'>
 
@@ -25,7 +28,7 @@ const Navbar = () => {
 
             </div>
             {/* < BsYoutube color='green' size='2rem' /> */}
-            <h1 className='font-bold text-2xl '>GoodyMan</h1>
+            <h1 className='siteName font-bold text-2xl '>GoodyMan</h1>
           </div>
 
 

@@ -22,7 +22,7 @@ const Home = () => {
         <div className='homeMenu1 flex justify-evenly pt-8 px-1 column-3'>
 
           {/* html Section */}
-          <Link to=''>
+          <Link to='/html'>
             <div className=' h-auto w-auto'>
               <div className='htmlBackground h-52 w-80 bg-green-300 rounded-xl drop-shadow-lg hover:-translate-y-2 ease-in-out duration-300 '></div>
 
