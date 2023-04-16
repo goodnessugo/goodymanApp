@@ -8,6 +8,7 @@ import Verification from './pages/Verification'
 import Newpassword from './pages/Newpassword'
 import Passwordsuccessful from './pages/Passwordsuccessful'
 import UserProfile from './pages/users/UserProfile'
+import Html from './pages/users/Html'
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
         <Route path='/newpassword' element={ <Newpassword /> } />
         <Route path='/passwordsuccessful' element={ <Passwordsuccessful /> } />
         <Route path='/userprofile' element={ <UserProfile /> } />
+        <Route path='/html' element={ <Html /> } />
     </Routes>
    </BrowserRouter>
   )

@@ -134,7 +134,7 @@ body{
 
 
 /* ------------------media query for smaller screens------------------ */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 730px){
     /* .LeftSide{
         width: 0rem;
     } */
@@ -163,6 +163,7 @@ body{
  
     .barIcon{
         display: block;
+       
     }
 
     .search {
@@ -191,4 +192,8 @@ body{
         width: 75%;
         margin: 2rem;
     }
+
+   .courseSection{
+    height: 18rem;
+   }
 }

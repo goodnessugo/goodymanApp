@@ -76,17 +76,17 @@ const Home = () => {
 
                   {/* title holder */}
                   <div className='title '>
-                    <h1 className='mb-0 font-bold'>How to Code in 5mins</h1>
+                    <h1 className='mb-0 font-bold'>CSS</h1>
 
                     <div className=' mt-0 text-gray-500 flex items-center column-2'>
                       <h2>Monkey Code</h2>
                       <h2><BsFillCheckCircleFill /></h2>
                     </div>
 
-                    <div className='text-gray-500 flex items-start column-3'>
-                      <h2>168k views</h2>
-                      <h2>.</h2>
-                      <h2>1 month ago</h2>
+                    <div className='text-gray-500 flex items-center column-3'>
+                      <h2 className='mr-2'>15 topics.</h2>
+                      <h2 >8 covered </h2>
+                      <h2><BsFillCheckCircleFill color='green' /></h2>
                     </div>
 
                   </div>

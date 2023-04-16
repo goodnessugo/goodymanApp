@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
             
             
             {/*------------------ the Right Side ---------------------*/}
-            <div className='RightSide flex  h-screen w-full  '>
+            <div className='RightSide flex  h-screen w-full overflow-x-hidden '>
   
                 <LeftSection />
                 {/* -------------------the third Section ---------------------this is the begining of the movie part */}
