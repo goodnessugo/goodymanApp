@@ -162,7 +162,7 @@ body{
     }
 
     .siteName{
-        /* font-size: 1.1rem; */
+        font-size: 1rem;
     }
  
     .barIcon{
@@ -221,5 +221,9 @@ body{
    .search, .microphone, .notification{
     width: 1.8rem;
     height: 1.8rem;
+   }
+
+   .NavSection {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
    }
 }

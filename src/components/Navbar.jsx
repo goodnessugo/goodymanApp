@@ -17,12 +17,16 @@ const Navbar = () => {
       {/* the left top section */}
       <div className='toplLeft w-fit h-fit '>
         <div className='navTop w-full flex justify-between items-center gap-3 bg-yellow-500 '>
-          <div className=' barIcon pl-5 flex justify-between items-center'>
-            {/* 3 bar logo */}
-            <FaBars />
-          </div>
+
 
           <div className='flex justify-between items-center'>
+
+            {/* barIcon */}
+            <div className=' barIcon pl-5 flex justify-between items-center'>
+              {/* 3 bar logo */}
+              <FaBars />
+            </div>
+
             {/* company logo */}
             <div className='logoImage h-10 w-10 '>
 
