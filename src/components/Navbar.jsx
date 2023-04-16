@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
-  
+
 
   return (
     <div className='NavSection w-full h-24 flex items-center justify-between p-4 bg-gray-100  overflow-y-hidden'>
@@ -16,7 +16,7 @@ const Navbar = () => {
 
       {/* the left top section */}
       <div className='toplLeft w-fit h-fit '>
-        <div className=' w-full flex justify-between items-center gap-3 '>
+        <div className='navTop w-full flex justify-between items-center gap-3 bg-yellow-500 '>
           <div className=' barIcon pl-5 flex justify-between items-center'>
             {/* 3 bar logo */}
             <FaBars />
@@ -40,7 +40,9 @@ const Navbar = () => {
 
       {/* end of left top section */}
 
-      <div className='formSection&Mic flex justify-end items-center  w-8/12 '>
+
+
+      <div className='formSectionAndMic flex justify-end items-center  w-8/12 bg-purple-500'>
 
         <div className=' searchBox h-10 w-9/12 rounded-l-full bg-white border border-gray flex justify-start items-center pl-3'>
 
@@ -56,9 +58,9 @@ const Navbar = () => {
         </div>
 
 
-        <div className=' flex '>
+        <div className=' searchAndMic flex justify-center items-center '>
           <div className='search flex  justify-center items-center bg-gray-100 hover:bg-gray-300 border border-gray w-16 rounded-r-full'>
-            <BsSearch />
+            <BsSearch color='red' />
           </div>
 
           <div className='microphone flex items-center justify-center h-10 w-10 rounded-full hover:bg-gray-300 ease-in-out duration-300'>
@@ -73,11 +75,11 @@ const Navbar = () => {
 
 
 
-      <div className='profileSection flex justify-between w-fit gap-2  px-4'>
+      <div className='profileSection flex justify-between items-center w-fit gap-2  px-4'>
 
-        
 
-        <div className='   hover:bg-gray-300 ease-in-out duration-300 rounded-full h-10 w-10 flex items-center justify-center'>
+
+        <div className='notification  hover:bg-gray-300 ease-in-out duration-300 rounded-full h-10 w-10 flex items-center justify-center'>
           <IoIosNotificationsOutline size='1.5rem' />
         </div>
 
@@ -86,7 +88,7 @@ const Navbar = () => {
             <div className='profileImage h-10 w-10 bg-green-500 rounded-full '>
               <br />
 
-              <h1 className='font-bold mt-3'>Anna</h1>
+              <h1 className='profileName font-bold mt-3'>Anna</h1>
             </div>
 
           </div>
