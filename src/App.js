@@ -9,6 +9,7 @@ import Newpassword from './pages/Newpassword'
 import Passwordsuccessful from './pages/Passwordsuccessful'
 import UserProfile from './pages/users/UserProfile'
 import Html from './pages/users/Html'
+import Content from './pages/users/Content'
 
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
         <Route path='/passwordsuccessful' element={ <Passwordsuccessful /> } />
         <Route path='/userprofile' element={ <UserProfile /> } />
         <Route path='/html' element={ <Html /> } />
+        <Route path='/content' element={ <Content /> } />
     </Routes>
    </BrowserRouter>
   )

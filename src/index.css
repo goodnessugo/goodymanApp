@@ -228,4 +228,14 @@ body{
    .NavSection {
     grid-template-columns: repeat(2, minmax(0, 1fr));
    }
+
+   .contentSection{
+    display: flex;
+    flex-direction: column;
+    
+   }
+
+   .textArea, .videoArea{
+    height: 20rem;
+   }
 }

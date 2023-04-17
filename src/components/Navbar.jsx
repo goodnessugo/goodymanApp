@@ -2,7 +2,6 @@ import React from 'react'
 import { BsSearch, BsMicFill } from 'react-icons/bs';
 import { FaBars } from 'react-icons/fa';
 import { IoIosNotificationsOutline } from 'react-icons/io';
-import { TbVideoPlus } from 'react-icons/tb';
 import { Link } from 'react-router-dom';
 
 
@@ -11,7 +10,7 @@ const Navbar = () => {
 
 
   return (
-    <div className='NavSection w-full h-24 flex items-center justify-between p-4 bg-gray-100  overflow-y-hidden'>
+    <div className='NavSection w-full h-24 flex items-center justify-between p-4 bg-green-100  overflow-y-hidden'>
 
 
       {/* the left top section */}
@@ -24,7 +23,7 @@ const Navbar = () => {
             {/* barIcon */}
             <div className=' barIcon pl-5 flex justify-between items-center'>
               {/* 3 bar logo */}
-              <FaBars />
+              <FaBars size='2rem'/>
             </div>
 
             {/* company logo */}
@@ -50,7 +49,7 @@ const Navbar = () => {
 
         <div className=' searchBox h-10 w-9/12 rounded-l-full bg-white border border-gray flex justify-start items-center pl-3'>
 
-          <div className='search flex justify-center items-center  w-10 '>
+          <div className='search flex justify-center items-center  w-10  '>
             <BsSearch />
           </div>
 
@@ -63,7 +62,7 @@ const Navbar = () => {
 
 
         <div className=' searchAndMic flex justify-center items-center '>
-          <div className='search flex  justify-center items-center bg-gray-100 hover:bg-gray-300 border border-gray w-16 rounded-r-full'>
+          <div className='search bg-green-500 flex  justify-center items-center bg-gray-100 hover:bg-gray-300 border border-gray w-16 h-10 rounded-r-full'>
             <BsSearch  />
           </div>
 
@@ -89,7 +88,7 @@ const Navbar = () => {
 
         <Link to='/userprofile'>
           <div >
-            <div className='profileImage h-10 w-10 bg-green-500 rounded-full '>
+            <div className='profileImage h-10 w-10 bg-green-500 rounded-full drop-shadow-md border-2 border-white '>
               <br />
 
               <h1 className='profileName font-bold mt-3'>Anna</h1>

@@ -12,7 +12,7 @@ const Html = () => {
 
                 <div className='courseSection py-5 mt-5   bg-gray-500 rounded-lg h-96 overflow-x-hidden'>
                     <ul className='px-5 '>
-                        <Link to=''>
+                        <Link to='/content'>
                             <li>
                                 <div className='w-full h-10 px-5 py-2 bg-gray-200 rounded-lg flex justify-between items-center hover:bg-gray-300 my-3 '>
                                     <h1 className=' '>Introduction to HTML</h1>
