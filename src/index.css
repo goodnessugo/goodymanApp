@@ -149,8 +149,8 @@ body{
     }
 
     .profileSection{
-        padding-left: none;
-        padding-right: 3rem;
+        /* padding-left: none; */
+        /* padding-right: 3rem; */
     }
 
     .NavSection{
@@ -162,7 +162,7 @@ body{
     }
 
     .siteName{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
  
     .barIcon{
@@ -202,7 +202,9 @@ body{
    }
 
    .profileSection{
-    padding-left:0.2rem ;
+    /* padding-left:0.2rem ; */
+    gap: 0rem;
+    padding-left: 0rem;
    }
 
    .navTop{

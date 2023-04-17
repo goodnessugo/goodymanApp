@@ -16,7 +16,7 @@ const Navbar = () => {
 
       {/* the left top section */}
       <div className='toplLeft w-fit h-fit '>
-        <div className='navTop w-full flex justify-between items-center gap-3 bg-yellow-500 '>
+        <div className='navTop w-full flex justify-between items-center gap-3 '>
 
 
           <div className='flex justify-between items-center'>
@@ -46,7 +46,7 @@ const Navbar = () => {
 
 
 
-      <div className='formSectionAndMic flex justify-end items-center  w-8/12 bg-purple-500'>
+      <div className='formSectionAndMic flex justify-end items-center  w-8/12 '>
 
         <div className=' searchBox h-10 w-9/12 rounded-l-full bg-white border border-gray flex justify-start items-center pl-3'>
 
@@ -64,7 +64,7 @@ const Navbar = () => {
 
         <div className=' searchAndMic flex justify-center items-center '>
           <div className='search flex  justify-center items-center bg-gray-100 hover:bg-gray-300 border border-gray w-16 rounded-r-full'>
-            <BsSearch color='red' />
+            <BsSearch  />
           </div>
 
           <div className='microphone flex items-center justify-center h-10 w-10 rounded-full hover:bg-gray-300 ease-in-out duration-300'>
@@ -79,7 +79,7 @@ const Navbar = () => {
 
 
 
-      <div className='profileSection flex justify-between items-center w-fit gap-2  px-4'>
+      <div className='profileSection flex justify-between items-center w-fit gap-2  px-4 '>
 
 
 
