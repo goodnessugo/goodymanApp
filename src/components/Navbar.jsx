@@ -23,7 +23,7 @@ const Navbar = () => {
             {/* barIcon */}
             <div className=' barIcon pl-5 flex justify-between items-center'>
               {/* 3 bar logo */}
-              <FaBars size='2rem'/>
+              <FaBars size='1.5rem'/>
             </div>
 
             {/* company logo */}
