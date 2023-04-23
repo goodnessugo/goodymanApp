@@ -127,7 +127,21 @@ body{
     display: none;
 }
 
+.NavSection{
+    background-image: url('./images/appBack5.png');
+    
+}
 
+
+
+/* this makes the scroll bar of the Text Area disappear */
+.textArea::-webkit-scrollbar{
+    width: .5rem;
+}
+
+.codeArea {
+    
+}
 
 
 

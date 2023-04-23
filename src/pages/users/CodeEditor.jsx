@@ -1,0 +1,37 @@
+import React from 'react'
+
+const CodeEditor = () => {
+
+
+    function run() {
+
+        let htmlCode = document.querySelector(".editor #html-code").value;
+        let cssCode = "<style>" + document.querySelector(".editor #css-code").value + "</style>";
+        let jsCode = document.querySelector(".editor #js-code").value;
+        let output = document.querySelector(".editor #output");
+
+        // console.log(htmlCode,cssCode,jsCode,output); 
+
+        // working in the output section
+        output.contentDocument.body.innerHTML = htmlCode + cssCode;
+        output.contentWindow.eval(jsCode);
+    }
+
+    document.querySelector(".editor #html-code").addEventListener("keyup", run);
+    document.querySelector(".editor #css-code").addEventListener("keyup", run);
+    document.querySelector(".editor #js-code").addEventListener("keyup", run);
+
+
+    return (
+        <div className="editor">
+            <textarea id="html-code"></textarea>
+            <textarea id='css-code'></textarea>
+            <textarea id='js-code'></textarea>
+            <iframe id='output'></iframe>
+
+        </div>
+
+    )
+}
+
+export default CodeEditor
