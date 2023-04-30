@@ -4,6 +4,7 @@ import vid1 from '../../videos/vid1.mp4'
 import image from '../../images/bgImage1.jpg'
 import { MdManageHistory } from 'react-icons/md'
 import CodeEditor from './CodeEditor'
+import { Link } from 'react-router-dom'
 
 const Content = () => {
   return (
@@ -13,14 +14,12 @@ const Content = () => {
         {/* the Text Area */}
         <div className='textArea bg-amber-100 p-5 overflow-x-hidden rounded-md'  >
           <h1>Place the Text and code here</h1>
-          <div className='py-5 flex items-center gap-2'>
-            <h2>Click Video to  </h2> < MdManageHistory /> 
-          </div>
+          
 
           {/* the lecture video */}
-          <div className='videoCourse pb-3'>
+          {/* <div className='videoCourse pb-3'>
           <video src={vid1} className='w-full' controls></video>
-          </div>
+          </div> */}
 
           <img src={image} className='rounded-lg' />
           <h1>Place the Text and code here</h1>
@@ -39,8 +38,23 @@ const Content = () => {
         </div>
 
         {/* The Video Area */}
-        <div className='codeArea bg-orange-500 '>
-          < CodeEditor />
+        {/* <div className='codeArea bg-orange-500 '> */}
+        {/* < CodeEditor /> */}
+        {/* </div> */}
+
+        <div className='videoCourse pb-3'>
+          <video src={vid1} className='w-full' controls></video>
+
+          <div className='direction py-5 flex justify-between items-center '>
+            <Link to="">
+              <button className='bg-red-300 hover:bg-red-500 ease-in-out duration-300'>Prev</button>
+            </Link>
+
+            <Link to="">
+              <button className='bg-blue-300 hover:bg-blue-500 ease-in-out duration-300'>Next</button>
+            </Link>
+          </div>
+
         </div>
 
       </div>
