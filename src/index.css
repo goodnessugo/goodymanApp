@@ -110,6 +110,14 @@ body{
     background-repeat: no-repeat;
 }
 
+
+.tailwindBackground {
+    background-image: url('./images/tailwind.png');
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 /* styling the tutor Image */
 .tutorImage{
     background-image: url('./images/goodymanLogo.png');

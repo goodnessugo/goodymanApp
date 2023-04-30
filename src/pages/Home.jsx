@@ -210,7 +210,7 @@ const Home = () => {
 
                   {/* title holder */}
                   <div className='title '>
-                    <h1 className='mb-0 font-bold'>CSS</h1>
+                    <h1 className='mb-0 font-bold'>GitHub</h1>
 
                     <div className=' mt-0 text-gray-500 flex items-center column-2'>
                       <h2>GoodyMan</h2>
@@ -239,10 +239,10 @@ const Home = () => {
             </div>
           </Link>
 
-          {/* javascript Section */}
+          {/* TailwindCss Section */}
           <Link to=''>
             <div className=' h-auto w-auto '>
-              <div className='javascriptBackground  drop-shadow-lg h-52 w-80 bg-gray-300 rounded-xl hover:-translate-y-2 ease-in-out duration-300'></div>
+              <div className='tailwindBackground  drop-shadow-lg h-52 w-80 bg-gray-300 rounded-xl hover:-translate-y-2 ease-in-out duration-300'></div>
 
               <div className='flex justify-between mt-3 column-2 '>
 
@@ -252,7 +252,7 @@ const Home = () => {
 
                   {/* title holder */}
                   <div className='title '>
-                    <h1 className='mb-0 font-bold'>JavaScript</h1>
+                    <h1 className='mb-0 font-bold'>Tailwind Css</h1>
 
                     <div className=' mt-0 text-gray-500 flex items-center column-2'>
                       <h2>GoodyMan</h2>
