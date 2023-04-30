@@ -52,7 +52,7 @@ body{
 
 /* logoImage styling */
 .logoImage {
-    background-image: url('./images/goodymanLogo.png');
+    background-image: url('./images/goodyNewLogo.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -91,6 +91,20 @@ body{
 
 .javascriptBackground{
     background-image: url('./images/javascript.jpg');
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.reactBackground{
+    background-image: url('./images/react2.webp');
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gitBackground {
+    background-image: url('./images/git2.jpeg');
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;

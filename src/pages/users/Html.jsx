@@ -20,69 +20,83 @@ const Html = () => {
                                 </div>
                             </li>
                         </Link>
-                        <Link to=''>
+                        <Link to='/content'>
                             <li>
-                                <div className='w-full h-10 bg-gray-200 rounded-lg hover:bg-gray-300 my-3 '>
-                                    <h1 className='px-5 pt-2'>Introduction to HTML</h1>
+                                <div className='w-full h-10 px-5 py-2 bg-gray-200 rounded-lg flex justify-between items-center hover:bg-gray-300 my-3 '>
+                                    <h1 className=' '>Introduction to HTML</h1>
+                                    < MdOutlineArrowRight size='2rem' />
                                 </div>
                             </li>
                         </Link>
-                        <Link to=''>
+                        <Link to='/content'>
                             <li>
-                                <div className='w-full h-10 bg-gray-200 rounded-lg hover:bg-gray-300 my-3 '>
-                                    <h1 className='px-5 pt-2'>Introduction to HTML</h1>
+                                <div className='w-full h-10 px-5 py-2 bg-gray-200 rounded-lg flex justify-between items-center hover:bg-gray-300 my-3 '>
+                                    <h1 className=' '>Introduction to HTML</h1>
+                                    < MdOutlineArrowRight size='2rem' />
                                 </div>
                             </li>
                         </Link>
-                        <Link to=''>
+                        <Link to='/content'>
                             <li>
-                                <div className='w-full h-10 bg-gray-200 rounded-lg hover:bg-gray-300 my-3 '>
-                                    <h1 className='px-5 pt-2'>Introduction to HTML</h1>
+                                <div className='w-full h-10 px-5 py-2 bg-gray-200 rounded-lg flex justify-between items-center hover:bg-gray-300 my-3 '>
+                                    <h1 className=' '>Introduction to HTML</h1>
+                                    < MdOutlineArrowRight size='2rem' />
                                 </div>
                             </li>
                         </Link>
-                        <Link to=''>
+                        <Link to='/content'>
                             <li>
-                                <div className='w-full h-10 bg-gray-200 rounded-lg hover:bg-gray-300 my-3 '>
-                                    <h1 className='px-5 pt-2'>Introduction to HTML</h1>
+                                <div className='w-full h-10 px-5 py-2 bg-gray-200 rounded-lg flex justify-between items-center hover:bg-gray-300 my-3 '>
+                                    <h1 className=' '>Introduction to HTML</h1>
+                                    < MdOutlineArrowRight size='2rem' />
                                 </div>
                             </li>
                         </Link>
-                        <Link to=''>
+                        <Link to='/content'>
                             <li>
-                                <div className='w-full h-10 bg-gray-200 rounded-lg hover:bg-gray-300 my-3 '>
-                                    <h1 className='px-5 pt-2'>Introduction to HTML</h1>
+                                <div className='w-full h-10 px-5 py-2 bg-gray-200 rounded-lg flex justify-between items-center hover:bg-gray-300 my-3 '>
+                                    <h1 className=' '>Introduction to HTML</h1>
+                                    < MdOutlineArrowRight size='2rem' />
                                 </div>
                             </li>
                         </Link>
-                        <Link to=''>
+                        <Link to='/content'>
                             <li>
-                                <div className='w-full h-10 bg-gray-200 rounded-lg hover:bg-gray-300 my-3 '>
-                                    <h1 className='px-5 pt-2'>Introduction to HTML</h1>
+                                <div className='w-full h-10 px-5 py-2 bg-gray-200 rounded-lg flex justify-between items-center hover:bg-gray-300 my-3 '>
+                                    <h1 className=' '>Introduction to HTML</h1>
+                                    < MdOutlineArrowRight size='2rem' />
                                 </div>
                             </li>
                         </Link>
-                        <Link to=''>
+                        <Link to='/content'>
                             <li>
-                                <div className='w-full h-10 bg-gray-200 rounded-lg hover:bg-gray-300 my-3 '>
-                                    <h1 className='px-5 pt-2'>Introduction to HTML</h1>
+                                <div className='w-full h-10 px-5 py-2 bg-gray-200 rounded-lg flex justify-between items-center hover:bg-gray-300 my-3 '>
+                                    <h1 className=' '>Introduction to HTML</h1>
+                                    < MdOutlineArrowRight size='2rem' />
                                 </div>
                             </li>
                         </Link>
-                        <Link to=''>
+                        <Link to='/content'>
                             <li>
-                                <div className='w-full h-10 bg-gray-200 rounded-lg hover:bg-gray-300 my-3 '>
-                                    <h1 className='px-5 pt-2'>Introduction to HTML</h1>
+                                <div className='w-full h-10 px-5 py-2 bg-gray-200 rounded-lg flex justify-between items-center hover:bg-gray-300 my-3 '>
+                                    <h1 className=' '>Introduction to HTML</h1>
+                                    < MdOutlineArrowRight size='2rem' />
                                 </div>
                             </li>
                         </Link>
-                        <Link to=''>
+                        <Link to='/content'>
                             <li>
-                                <div className='w-full h-10 bg-gray-200 rounded-lg hover:bg-gray-300 my-3 '>
-                                    <h1 className='px-5 pt-2'>Introduction to HTML</h1>
+                                <div className='w-full h-10 px-5 py-2 bg-gray-200 rounded-lg flex justify-between items-center hover:bg-gray-300 my-3 '>
+                                    <h1 className=' '>Introduction to HTML</h1>
+                                    < MdOutlineArrowRight size='2rem' />
                                 </div>
                             </li>
                         </Link>
+                        
+                       
+                       
+                       
+                       
                     </ul>
 
                 </div>
