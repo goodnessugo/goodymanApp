@@ -282,4 +282,8 @@ body{
    .textArea, .videoArea{
     height: 20rem;
    }
+
+   .siteName{
+    display: none;
+   }
 }

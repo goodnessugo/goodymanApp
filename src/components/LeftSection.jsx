@@ -1,6 +1,6 @@
 import React from 'react'
 import { BsFiletypeHtml, BsFiletypeCss } from 'react-icons/bs';
-import { FaBars, FaHome, FaReact } from 'react-icons/fa';
+import { FaHome, FaReact } from 'react-icons/fa';
 import { BsYoutube } from 'react-icons/bs';
 import { MdManageHistory, MdKeyboardArrowUp } from 'react-icons/md';
 import { BiTimeFive } from 'react-icons/bi';
@@ -18,7 +18,7 @@ const LeftSection = () => {
       {/* the menu listing */}
 
       <div className='menu w-44 h-screen pt-5 overflow-x-hidden '>
- 
+
         <Link to='/'>
           <div className='flex justify-start items-center   rounded-md py-1 px-5  hover:bg-gray-300 ease-in-out '>
             <FaHome size='1.2rem' />
@@ -33,25 +33,28 @@ const LeftSection = () => {
           </div>
         </Link>
 
-        <div className='flex justify-start items-center   rounded-md py-1 px-5  hover:bg-gray-300 ease-in-out '>
-          <BsFiletypeCss size='1.2rem' />
-          <h1 className='ml-5 hover:font-bold '>CSS</h1>
-        </div>
+        <Link to='/css'>
+          <div className='flex justify-start items-center   rounded-md py-1 px-5  hover:bg-gray-300 ease-in-out '>
+            <BsFiletypeCss size='1.2rem' />
+            <h1 className='ml-5 hover:font-bold '>CSS</h1>
+          </div>
+        </Link>
 
-
-        <div className='flex justify-start items-center   rounded-md py-1 px-5  hover:bg-gray-300 ease-in-out '>
-          <SiJavascript size='1rem' />
-          <h1 className='ml-5  '>JavaScript</h1>
-        </div>
+        <Link to='/javascript'>
+          <div className='flex justify-start items-center   rounded-md py-1 px-5  hover:bg-gray-300 ease-in-out '>
+            <SiJavascript size='1rem' />
+            <h1 className='ml-5  '>JavaScript</h1>
+          </div>
+        </Link>
 
         <hr className='my-5' />
 
-
-        <div className='flex justify-start items-center   rounded-md py-1 px-5  hover:bg-gray-300 ease-in-out '>
-          <FaReact size='1.5rem' />
-          <h1 className='ml-5 hover:font-bold '>React</h1>
-        </div>
-
+        <Link to='/reactcontent'>
+          <div className='flex justify-start items-center   rounded-md py-1 px-5  hover:bg-gray-300 ease-in-out '>
+            <FaReact size='1.5rem' />
+            <h1 className='ml-5 hover:font-bold '>React</h1>
+          </div>
+        </Link>
 
 
         <div className='flex justify-start items-center   rounded-md py-1 px-5  hover:bg-gray-300 ease-in-out '>

@@ -10,6 +10,11 @@ import Passwordsuccessful from './pages/Passwordsuccessful'
 import UserProfile from './pages/users/UserProfile'
 import Html from './pages/users/Html'
 import Content from './pages/users/Content'
+import Css from './pages/users/Css'
+import Javascript from './pages/users/Javascript'
+import Tailwind from './pages/users/Tailwind'
+import ReactContent from './pages/users/ReactContent'
+import Git from './pages/users/Git'
 
 
 const App = () => {
@@ -26,6 +31,11 @@ const App = () => {
         <Route path='/userprofile' element={ <UserProfile /> } />
         <Route path='/html' element={ <Html /> } />
         <Route path='/content' element={ <Content /> } />
+        <Route path='/css' element={ <Css /> } />
+        <Route path='/javascript' element={ <Javascript /> } />
+        <Route path='/tailwind' element={ <Tailwind /> } />
+        <Route path='/git' element={ <Git /> } />
+        <Route path='/reactcontent' element={ <ReactContent /> } />
     </Routes>
    </BrowserRouter>
   )

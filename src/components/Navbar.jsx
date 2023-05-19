@@ -21,17 +21,17 @@ const Navbar = () => {
           <div className='flex justify-between items-center'>
 
             {/* barIcon */}
-            <div className=' barIcon pl-5 flex justify-between items-center'>
+            <div className=' barIcon px-5 flex justify-between items-center'>
               {/* 3 bar logo */}
               <FaBars size='1.5rem'/>
             </div>
 
             {/* company logo */}
-            <div className='logoImage h-10 w-10 '>
+            <div className='logoImage h-8 w-8 '>
 
             </div>
             {/* < BsYoutube color='green' size='2rem' /> */}
-            <h1 className='siteName font-bold text-2xl '>GoodyMan</h1>
+            <h1 className='siteName font-bold text-2xl pl-3'>GoodyMan</h1>
           </div>
 
 
