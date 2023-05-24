@@ -15,6 +15,7 @@ import Javascript from './pages/users/Javascript'
 import Tailwind from './pages/users/Tailwind'
 import ReactContent from './pages/users/ReactContent'
 import Git from './pages/users/Git'
+import MobileNavbar from './components/MobileNavbar'
 
 
 const App = () => {
@@ -36,6 +37,7 @@ const App = () => {
         <Route path='/tailwind' element={ <Tailwind /> } />
         <Route path='/git' element={ <Git /> } />
         <Route path='/reactcontent' element={ <ReactContent /> } />
+        <Route path='/mobilenavbar' element={ <MobileNavbar /> } />
     </Routes>
    </BrowserRouter>
   )

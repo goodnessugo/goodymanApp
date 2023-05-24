@@ -17,7 +17,7 @@ const LeftSection = () => {
 
       {/* the menu listing */}
 
-      <div className='menu w-44 h-screen pt-5 overflow-x-hidden '>
+      <div className='menu sm-w-0 w-44 h-screen pt-5 overflow-x-hidden '>
 
         <Link to='/'>
           <div className='flex justify-start items-center   rounded-md py-1 px-5  hover:bg-gray-300 ease-in-out '>

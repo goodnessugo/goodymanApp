@@ -7,7 +7,7 @@ const Tailwind = () => {
   return (
     <Layout>
     <div className='coursePage pt-5 px-5 pb-40   overflow-x-hidden '>
-        <h1 className='pb-5 text-2xl'>HTML <span className='font-bold text-green-500'>15 Courses</span></h1>
+        <h1 className='pb-5 text-2xl'>Tailwind <span className='font-bold text-green-500'>15 Courses</span></h1>
         <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, illum delectus sed quibusdam ea molestias, blanditiis nemo dignissimos tempore voluptatibus doloremque ab, recusandae alias itaque nostrum officiis? Natus dolorum vitae ullam distinctio placeat eligendi cumque? Quis, consequuntur nam ducimus sed eveniet corporis expedita omnis perferendis labore fugit, quibusdam veniam pariatur!</h2>
 
         <div className='courseSection py-5 mt-5   bg-gray-500 rounded-lg h-96 overflow-x-hidden'>

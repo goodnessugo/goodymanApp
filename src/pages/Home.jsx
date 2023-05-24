@@ -12,6 +12,7 @@ import Layout from '../components/Layout';
 
 const Home = () => {
   return (
+    
     <Layout>
       {/* the home menu */}
       <div className='homeMenu w-full h-full pb-20 overflow-x-hidden '>
@@ -64,7 +65,7 @@ const Home = () => {
           </Link>
 
           {/* css Section */}
-          <Link to=''>
+          <Link to='/css'>
             <div className=' h-auto w-auto'>
               <div className=' cssBackground h-52 w-80 bg-blue-300 rounded-xl drop-shadow-lg hover:-translate-y-2 ease-in-out duration-300'></div>
 
@@ -106,7 +107,7 @@ const Home = () => {
           </Link>
 
           {/* javascript Section */}
-          <Link to=''>
+          <Link to='/javascript'>
             <div className=' h-auto w-auto '>
               <div className='javascriptBackground  drop-shadow-lg h-52 w-80 bg-gray-300 rounded-xl hover:-translate-y-2 ease-in-out duration-300'></div>
 
@@ -158,7 +159,7 @@ const Home = () => {
         <div className='homeMenu1 flex justify-evenly pt-8 px-1 mb-10 column-3'>
 
           {/*React Section */}
-          <Link to='/'>
+          <Link to='/reactcontent'>
             <div className=' h-auto w-auto'>
               <div className='reactBackground h-52 w-80 bg-green-300 rounded-xl drop-shadow-lg hover:-translate-y-2 ease-in-out duration-300 '></div>
 
@@ -200,7 +201,7 @@ const Home = () => {
           </Link>
 
           {/* git Section */}
-          <Link to=''>
+          <Link to='/git'>
             <div className=' h-auto w-auto'>
               <div className=' gitBackground h-52 w-80 bg-blue-300 rounded-xl drop-shadow-lg hover:-translate-y-2 ease-in-out duration-300'></div>
 
