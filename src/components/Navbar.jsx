@@ -27,6 +27,8 @@ const Navbar = () => {
 
             <div className='flex justify-between items-center'>
 
+
+
               {/* -------barIcon----------- */}
 
               {/* 3 bar logo */}
@@ -35,9 +37,18 @@ const Navbar = () => {
               } */}
 
 
-              <div className=' barIcon px-2 flex justify-between items-center'>
-                <FaBars size='1.5rem' onClick={() => setShow(!show)} />
-              </div>
+              <Link to='/mobilenavbar'>
+                <div className=' barIcon px-2 flex justify-between items-center'>
+                  <FaBars size='1.5rem' onClick={() => setShow(!show)} />
+                </div>
+              </Link>
+
+
+
+
+
+
+
 
               {/* company logo */}
               <Link to='/'>
