@@ -2,13 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
     /* overflow: hidden; */
 }
-body{
+
+body {
     overflow: hidden;
 }
-.category::-webkit-scrollbar{
+
+.category::-webkit-scrollbar {
     width: 0;
 }
 
@@ -29,11 +31,11 @@ body{
 
 
 
-.menu::-webkit-scrollbar{
+.menu::-webkit-scrollbar {
     width: .5rem;
 }
 
- .menu::-webkit-scrollbar-track {
+.menu::-webkit-scrollbar-track {
     background: white;
     width: .5rem;
 }
@@ -43,12 +45,12 @@ body{
     border-radius: 100vw;
     width: .5rem;
     height: .5rem;
-}  
+}
 
-.menu::-webkit-scrollbar-thumb:hover{
+.menu::-webkit-scrollbar-thumb:hover {
     background: rgb(92, 92, 92);
     border-radius: 100vw;
-}  
+}
 
 /* logoImage styling */
 .logoImage {
@@ -57,6 +59,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 /* Create styling */
 .createBackground {
     background-image: url('./images/bgImage1.jpg');
@@ -65,6 +68,7 @@ body{
     background-repeat: no-repeat;
 
 }
+
 /* login styling */
 .loginBackground {
     background-image: url('./images/bgImage3.jpg');
@@ -75,28 +79,28 @@ body{
 }
 
 /* styling the Handles */
-.htmlBackground{
+.htmlBackground {
     background-image: url('./images/html.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.cssBackground{
+.cssBackground {
     background-image: url('./images/css2.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.javascriptBackground{
+.javascriptBackground {
     background-image: url('./images/javascript.jpg');
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.reactBackground{
+.reactBackground {
     background-image: url('./images/react2.webp');
     background-position: right;
     background-size: cover;
@@ -119,7 +123,7 @@ body{
 }
 
 /* styling the tutor Image */
-.tutorImage{
+.tutorImage {
     background-image: url('./images/goodymanLogo.png');
     background-position: center;
     background-size: cover;
@@ -128,7 +132,7 @@ body{
 }
 
 /* styling the profile Section */
-.profileImage{
+.profileImage {
     background-image: url('./images/profileImage.jpg');
     background-position: center;
     background-size: cover;
@@ -137,7 +141,7 @@ body{
 }
 
 /* styling profile Background */
-.profileBackground{
+.profileBackground {
     background-image: url('./images/profileBackgroundImage.jpg');
     background-position: center;
     background-size: cover;
@@ -145,32 +149,30 @@ body{
 
 }
 
-.barIcon{
+.barIcon {
     display: none;
 }
 
-.NavSection{
+.NavSection {
     background-image: url('./images/appBack5.png');
-    
+
 }
 
 
 
 /* this makes the scroll bar of the Text Area disappear */
-.textArea::-webkit-scrollbar{
+.textArea::-webkit-scrollbar {
     width: .5rem;
 }
 
-.codeArea {
-    
-}
+.codeArea {}
 
-.direction button{
+.direction button {
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    
+
 }
 
 
@@ -178,43 +180,54 @@ body{
 
 
 /* ------------------media query for smaller screens------------------ */
-@media screen and (max-width: 730px){
+@media screen and (max-width: 730px) {
+
     /* .LeftSide{
         width: 0rem;
     } */
-    .menu{
+    .menu {
         /* width: 0rem; */
         display: none;
         /* background-color: red; */
     }
 
-    .searchBox{
+    .searchBox {
         /* width: 0rem; */
         display: none;
     }
 
-    .profileSection{
+    .search {
+        /* width: 0rem; */
+        display: none;
+    }
+
+    .microphone {
+        /* width: 0rem; */
+        display: none;
+    }
+
+    .profileSection {
         /* padding-left: none; */
         /* padding-right: 3rem; */
     }
 
-    .NavSection{
+    .NavSection {
         /* display: flex; */
         /* justify-content: center; */
-        /* overflow-x: hidden; */
+        overflow-x: hidden;
         /* padding: 0px; */
         height: 5rem;
         /* z-index: -1 ; */
     }
 
-    .siteName{
+    .siteName {
         font-size: 1rem;
     }
- 
-    .barIcon{
+
+    .barIcon {
         display: block;
-        
-       
+
+
     }
 
     .search {
@@ -222,12 +235,13 @@ body{
         width: 2.5rem;
         height: 2.5rem;
         border-radius: 50%;
-        
+
     }
+
     .search {
         background-color: transparent;
         border: none;
-        
+
     }
 
     .homeMenu1 {
@@ -239,54 +253,57 @@ body{
         gap: 2rem;
     }
 
-    .formHolder{
+    .formHolder {
         width: 75%;
         margin: 2rem;
     }
 
-   .courseSection{
-    height: 18rem;
-   }
+    .courseSection {
+        height: 18rem;
+    }
 
-   .profileSection{
-    /* padding-left:0.2rem ; */
-    gap: 0rem;
-    padding-left: 0rem;
-   }
+    .profileSection {
+        /* padding-left:0.2rem ; */
+        gap: 0rem;
+        padding-left: 0rem;
+    }
 
-   .navTop{
-    gap: 0.125rem;
-   }
+    .navTop {
+        gap: 0.125rem;
+    }
 
-   .formSectionAndMic {
-    width: 15%;
-    margin-left: 3rem;
-   }
+    .formSectionAndMic {
+        width: 15%;
+        margin-left: 3rem;
+    }
 
-   .profileName{
-    display: none;
-   }
+    .profileName {
+        display: none;
+    }
 
-   .search, .microphone, .notification{
-    width: 1.8rem;
-    height: 1.8rem;
-   }
+    .search,
+    .microphone,
+    .notification {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
 
-   .NavSection {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-   }
+    .NavSection {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 
-   .contentSection{
-    display: flex;
-    flex-direction: column;
-    
-   }
+    .contentSection {
+        display: flex;
+        flex-direction: column;
 
-   .textArea, .videoArea{
-    height: 20rem;
-   }
+    }
 
-   .siteName{
-    /* display: none; */
-   }
+    .textArea,
+    .videoArea {
+        height: 20rem;
+    }
+
+    .siteName {
+        /* display: none; */
+    }
 }

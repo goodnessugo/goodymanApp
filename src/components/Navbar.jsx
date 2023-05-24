@@ -35,7 +35,7 @@ const Navbar = () => {
               } */}
 
 
-              <div className=' barIcon px-5 flex justify-between items-center'>
+              <div className=' barIcon px-2 flex justify-between items-center'>
                 <FaBars size='1.5rem' onClick={() => setShow(!show)} />
               </div>
 
