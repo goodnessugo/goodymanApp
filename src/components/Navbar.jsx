@@ -39,7 +39,8 @@ const Navbar = () => {
 
               <Link to='/mobilenavbar'>
                 <div className=' barIcon px-2 flex justify-between items-center'>
-                  <FaBars size='1.5rem' onClick={() => setShow(!show)} />
+                 
+                  <FaBars size='1.5rem' />
                 </div>
               </Link>
 

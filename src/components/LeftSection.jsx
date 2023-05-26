@@ -1,12 +1,9 @@
 import React from 'react'
-import { BsFiletypeHtml, BsFiletypeCss } from 'react-icons/bs';
+import { BsFiletypeHtml, BsFiletypeCss, BsGithub } from 'react-icons/bs';
 import { FaHome, FaReact } from 'react-icons/fa';
-import { BsYoutube } from 'react-icons/bs';
 import { MdManageHistory, MdKeyboardArrowUp } from 'react-icons/md';
 import { BiTimeFive } from 'react-icons/bi';
-import { SlLike } from 'react-icons/sl';
-import { GrWifi } from 'react-icons/gr';
-import { SiJavascript } from 'react-icons/si';
+import { SiJavascript, SiTailwindcss } from 'react-icons/si';
 import { FcBarChart } from 'react-icons/fc';
 import { Link } from 'react-router-dom';
 
@@ -57,6 +54,22 @@ const LeftSection = () => {
         </Link>
 
 
+        <Link to='/git'>
+          <div className='flex justify-start items-center   rounded-md py-1 px-5  hover:bg-gray-300 ease-in-out '>
+            <BsGithub size='1.5rem' />
+            <h1 className='ml-5 hover:font-bold '>Git Hub</h1>
+          </div>
+        </Link>
+
+
+        <Link to='/tailwind'>
+          <div className='flex justify-start items-center   rounded-md py-1 px-5  hover:bg-gray-300 ease-in-out '>
+            <SiTailwindcss size='1.5rem' />
+            <h1 className='ml-5 hover:font-bold '>Tailwind</h1>
+          </div>
+        </Link>
+
+
         <div className='flex justify-start items-center   rounded-md py-1 px-5  hover:bg-gray-300 ease-in-out '>
           <MdManageHistory size='1.5rem' />
           <h1 className='ml-5 hover:font-bold '>History</h1>
@@ -78,86 +91,8 @@ const LeftSection = () => {
 
 
 
-        <div className='flex justify-start items-center   rounded-md py-1 px-5  hover:bg-gray-300 ease-in-out '>
-          <SlLike size='1.5rem' />
-          <h1 className='ml-5  '>Liked videos</h1>
-        </div>
-
-
-
-        <div className='flex justify-start items-center   rounded-md py-1 px-5 hover:bg-gray-300 ease-in-out '>
-          <BsYoutube size='1.5rem' />
-          <h1 className='ml-5  '>G</h1>
-        </div>
-
-
-
-        <div className='flex justify-start items-center   rounded-md py-1 px-5 hover:bg-gray-300 ease-in-out '>
-          <BsYoutube size='1.5rem' />
-          <h1 className='ml-5 '>Mix - Barry</h1>
-        </div>
-
-
-
-        <div className='flex justify-start items-center   rounded-md py-1 px-5  hover:bg-gray-300 ease-in-out '>
-          <MdKeyboardArrowUp size='1.5rem' />
-          <h1 className='ml-5  '>Show less</h1>
-        </div>
 
         <hr className='my-5' />
-
-        {/*Subscription section  */}
-        <div>
-          <h1 className='px-5 pb-2'>Subscription</h1>
-        </div>
-
-
-        <div className='flex justify-between items-center   rounded-md py-1 px-5 mx-3  hover:bg-gray-300 ease-in-out '>
-
-          {/* the profile holder */}
-          <div className='h-6 w-6 rounded-full bg-red-500'>
-
-          </div>
-
-          <h1 className='mx-2 hover:font-bold '>Show less</h1>
-          <GrWifi size='1rem' />
-        </div>
-
-
-        <div className='flex justify-between items-center   rounded-md py-1 px-5 mx-3  hover:bg-gray-300 ease-in-out '>
-
-          {/* the profile holder */}
-          <div className='h-6 w-6 rounded-full bg-red-500'>
-
-          </div>
-
-          <h1 className='mx-2 hover:font-bold '>Show less</h1>
-          <GrWifi size='1rem' />
-        </div>
-
-
-        <div className='flex justify-between items-center   rounded-md py-1 px-5 mx-3  hover:bg-gray-300 ease-in-out '>
-
-          {/* the profile holder */}
-          <div className='h-6 w-6 rounded-full bg-red-500'>
-
-          </div>
-
-          <h1 className='mx-2 hover:font-bold '>Show less</h1>
-          <GrWifi size='1rem' />
-        </div>
-
-
-        <div className='flex justify-between items-center   rounded-md py-1 px-5 mx-3  hover:bg-gray-300 ease-in-out '>
-
-          {/* the profile holder */}
-          <div className='h-6 w-6 rounded-full bg-red-500'>
-
-          </div>
-
-          <h1 className='mx-2 hover:font-bold '>Show less</h1>
-          <GrWifi size='1rem' />
-        </div>
 
 
       </div>
